@@ -1,4 +1,7 @@
 const conversationMap = {}
+
+  config = require("./config.js");
+  
 let conversationTimeLimit = parseInt(process.env.CONVERSATION_MEMORY_SECONDS)*1000
 
 if(!conversationTimeLimit || conversationTimeLimit <= 0){
