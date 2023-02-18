@@ -1,5 +1,7 @@
 import { ChatGPTAPI } from 'chatgpt'
 
+  config = require("./config.js");
+
 const chatGPT = {
     init: false,
     sendMessage: null,
