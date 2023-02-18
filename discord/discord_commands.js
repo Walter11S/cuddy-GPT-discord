@@ -1,5 +1,7 @@
 import { REST, Routes, AttachmentBuilder } from 'discord.js'
 
+  config = require("./config.js");
+
 import stableDiffusion from '../stablediffusion/stableDiffusion.js';
 import Conversations from '../openIA/conversations.js'
 import { askQuestion } from '../openIA/chatgpt.js';
